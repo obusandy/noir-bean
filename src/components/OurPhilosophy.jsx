@@ -31,7 +31,7 @@ const OurPhilosophy = () => {
 
   return (
     <section id="philosophy" className="relative -mt-1 py-20 md:py-32 ">
-      <div className="max-w-6xl mx-auto px-6 md:px-12 text-center">
+      <div className=" px-6 md:px-12 text-center">
         <h1 className="text-3xl font-bold uppercase tracking-wider custom-light-gradient:text-gray-900 bg-dark:text-white mb-4">
           {philosophyContent.eyebrow}
         </h1>

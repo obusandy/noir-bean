@@ -12,7 +12,7 @@ const About = () => {
           "linear-gradient(225deg, rgba(120, 53, 15, 0.8), rgba(101, 41, 17, 0.75), rgba(87, 33, 19, 0.7))",
       }}
     >
-      <div className="max-w-5xl mx-auto text-center">
+      <div className=" text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-green-700 dark:text-amber-200 mb-6">
           {t.about.title}
         </h2>

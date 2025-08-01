@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50 z-0"></div>
 
       {/* Main content container */}
-      <div className="relative z-10 w-full max-w-6xl mx-auto px-6 md:px-12">
+      <div className="relative z-10 w-full m-14 px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left side - Content */}
           <div className="text-white space-y-6">
@@ -28,12 +28,17 @@ export default function Hero() {
               {heroContent.description}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <button className="group bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
-                {heroContent.cta1}
-              </button>
-              <button className="bg-transparent border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl">
-                {heroContent.cta2}
-              </button>
+              <a href="#contact">
+                <button className="w-full group bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-xl transform hover:-translate-y-1">
+                  {heroContent.cta1}
+                </button>
+              </a>
+
+              <a href="#about">
+                <button className="w-full bg-transparent border-2 border-green-400 text-green-400 hover:bg-green-400 hover:text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl">
+                  {heroContent.cta2}
+                </button>
+              </a>
             </div>
           </div>
           <div className="hidden lg:block"></div>

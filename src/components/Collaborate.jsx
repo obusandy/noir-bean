@@ -8,7 +8,7 @@ const Collaborate = () => {
 
   return (
     <section id="contact" className="py-20 md:py-32 bg-green-800 text-white">
-      <div className="max-w-4xl mx-auto px-6 md:px-12 text-center">
+      <div className="max-w-6xl mx-auto px-6 md:px-12 text-center">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-amber-200">
           {collabContent.title}
         </h2>
@@ -26,7 +26,7 @@ const Collaborate = () => {
               {collabContent.box1.description}
             </p>
             <a
-              href="mailto:sourcing@noir-bean.com"
+              href="houseofpremiumcocoa@gmail.com"
               className="font-bold text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-2"
             >
               {collabContent.box1.cta} <ArrowRight size={18} />
@@ -42,7 +42,7 @@ const Collaborate = () => {
               {collabContent.box2.description}
             </p>
             <a
-              href="mailto:partners@noir-bean.com"
+              href="houseofpremiumcocoa@gmail.com"
               className="font-bold text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-2"
             >
               {collabContent.box2.cta} <ArrowRight size={18} />

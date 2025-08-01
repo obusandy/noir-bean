@@ -1,16 +1,15 @@
 // src/components/Navbar.jsx
 "use client";
 import { Sun, Moon, Languages, Menu, X } from "lucide-react";
-import { useLanguage } from "../context/LanguageContext"; // Import the custom hook
+import { useLanguage } from "../context/LanguageContext";
 import { useState } from "react";
 
 export default function Navbar() {
   const { language, toggleLanguage, darkMode, toggleDarkMode, t } =
-    useLanguage(); // Use the hook to get state and functions
-  const [isMenuOpen, setIsMenuOpen] = useState(false); // Mobile menu state remains local
+    useLanguage();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // The 't' object already contains translations for navbar and hero
-  const navLinks = t.navbar; // Access navbar translations directly
+  const navLinks = t.navbar;
 
   return (
     <nav
@@ -18,19 +17,18 @@ export default function Navbar() {
         darkMode ? "bg-dark" : "custom-light-gradient"
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className=" px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a
-              href="#"
-              className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors duration-200"
-            >
-              Noir-Bean
+            <a href="#">
+              <img
+                className="h-12 w-auto rounded-lg" // This makes the logo small
+                src="/images/house of cocoa.PNG" // The path to your image
+                alt="House of Cocoa Logo"
+              />
             </a>
           </div>
-
-          {/* Desktop Navigation Links */}
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-8">
               <a

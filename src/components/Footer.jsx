@@ -15,7 +15,7 @@ const Footer = () => {
         py-12 px-6 md:px-12
       `}
     >
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Logo and Mission */}
         <div>
           <h3 className="text-xl font-bold text-white mb-2">Noir-Bean</h3>
@@ -69,14 +69,14 @@ const Footer = () => {
           <h4 className="font-semibold text-white mb-3">
             {footerContent.contact}
           </h4>
-          <ul className="space-y-2">
+          <ul className="space-y-4">
             <li className="flex items-center justify-center md:justify-start gap-2">
               <Mail size={16} />
               <a
                 href="mailto:contact@noir-bean.com"
                 className="hover:text-amber-300 transition-colors"
               >
-                contact@noir-bean.com
+                houseofpremiumcocoa@gmail.com
               </a>
             </li>
             <li className="flex items-center justify-center md:justify-start gap-2">
@@ -87,7 +87,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-amber-300 transition-colors"
               >
-                +254 712 465 789
+                +254 785 368 650
               </a>
             </li>
           </ul>
@@ -95,7 +95,7 @@ const Footer = () => {
       </div>
       <div className="mt-12 pt-8 border-t border-gray-700 text-center text-sm">
         <p>
-          &copy; {year} Noir-Bean. {footerContent.rights}
+          &copy; {year} House of Cocoa. {footerContent.rights}
         </p>
       </div>
     </footer>
