@@ -14,7 +14,7 @@ const OurStory = () => {
           <div className="order-last lg:order-first">
             <img
               src="/images/story.jpeg"
-              alt="The Noir-Bean team and our mission"
+              alt="The House of Cocoa team and our mission"
               className="
                 w-full h-auto      /* Makes the image responsive within its container */
                 max-w-xl         /* Prevents a small image from stretching too wide */

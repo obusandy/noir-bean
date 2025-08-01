@@ -18,7 +18,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Logo and Mission */}
         <div>
-          <h3 className="text-xl font-bold text-white mb-2">Noir-Bean</h3>
+          <h3 className="text-xl font-bold text-white mb-2">House of Cocoa</h3>
           {/* USE TRANSLATION */}
           <p className="text-sm">{footerContent.mission}</p>
           <p className="text-sm text-gray-900 dark:text-gray-500">
@@ -73,7 +73,7 @@ const Footer = () => {
             <li className="flex items-center justify-center md:justify-start gap-2">
               <Mail size={16} />
               <a
-                href="mailto:contact@noir-bean.com"
+                href="mailto:houseofpremiumcocoa@gmail.com"
                 className="hover:text-amber-300 transition-colors"
               >
                 houseofpremiumcocoa@gmail.com

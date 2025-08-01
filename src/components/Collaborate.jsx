@@ -42,7 +42,7 @@ const Collaborate = () => {
               {collabContent.box2.description}
             </p>
             <a
-              href="mailto:houseofpremiumcocoa@gmail.com"
+              href="#contact"
               className="font-bold text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-2"
             >
               {collabContent.box2.cta} <ArrowRight size={18} />

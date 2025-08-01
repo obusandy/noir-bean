@@ -48,13 +48,13 @@ export const LanguageProvider = ({ children }) => {
         eyebrow: "Our Story",
         title: "From the Rich Soils of Congo to the Heart of Nairobi",
         paragraph1:
-          "Noir-Bean was born from a shared passion. We, a team based in Nairobi, saw a disconnect. On one side, the unparalleled cacao from the fertile lands of the DRC, nurtured by dedicated farmers. On the other, a world of artisans and creators yearning for authentic, high-quality ingredients.",
+          "House of Cocoa was born from a shared passion. We, a team based in Nairobi, saw a disconnect. On one side, the unparalleled cacao from the fertile lands of the DRC, nurtured by dedicated farmers. On the other, a world of artisans and creators yearning for authentic, high-quality ingredients.",
         paragraph2:
           "We are the bridge. Our mission is to build sustainable, transparent relationships that honor the farmer, celebrate the bean, and empower the chocolatier. We are more than suppliers; we are partners in craft.",
       },
       philosophy: {
         eyebrow: "Our Commitment",
-        title: "The Noir-Bean Philosophy",
+        title: "House of Cocoa Philosophy",
         description:
           "Our approach is rooted in three core principles: honoring the origin, ensuring uncompromising quality, and fostering genuine partnerships.",
         feature1: {
@@ -127,13 +127,13 @@ export const LanguageProvider = ({ children }) => {
         eyebrow: "Notre Histoire",
         title: "Des Sols Riches du Congo au Cœur de Nairobi",
         paragraph1:
-          "Noir-Bean est né d'une passion commune. Notre équipe, basée à Nairobi, a constaté une déconnexion. D'un côté, le cacao incomparable des terres fertiles de la RDC, cultivé par des agriculteurs dévoués. De l'autre, un monde d'artisans et de créateurs en quête d'ingrédients authentiques et de haute qualité.",
+          "Maison Cacao est né d'une passion commune. Notre équipe, basée à Nairobi, a constaté une déconnexion. D'un côté, le cacao incomparable des terres fertiles de la RDC, cultivé par des agriculteurs dévoués. De l'autre, un monde d'artisans et de créateurs en quête d'ingrédients authentiques et de haute qualité.",
         paragraph2:
           "Nous sommes ce pont. Notre mission est de bâtir des relations durables et transparentes qui honorent l'agriculteur, célèbrent la fève et renforcent le chocolatier. Nous sommes plus que des fournisseurs ; nous sommes des partenaires dans l'artisanat.",
       },
       philosophy: {
         eyebrow: "Notre Engagement",
-        title: "La Philosophie Noir-Bean",
+        title: "La Philosophie Maison Cacao",
         description:
           "Notre approche repose sur trois principes fondamentaux : honorer l'origine, garantir une qualité sans compromis et cultiver de véritables partenariats.",
         feature1: {
