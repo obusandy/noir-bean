@@ -38,19 +38,19 @@ export const LanguageProvider = ({ children }) => {
       },
       hero: {
         title: "Premium Cacao",
-        subtitle: "From DRC's Heart",
+        subtitle: "From the Rich Soils of DRC and Uganda",
         description:
-          "Sourcing the world's finest cacao beans directly from the Democratic Republic of Congo's pristine highlands, delivering exceptional quality and authentic flavors.",
+          "Based in Nairobi, we establish direct partnerships with dedicated farmers and co-operatives in the DRC and Uganda. For artisans and businesses seeking premium, character-rich cacao, we provide a clear and reliable path to the source.",
         cta1: "Explore Our Cacao",
         cta2: "Learn Our Story",
       },
       ourStory: {
         eyebrow: "Our Story",
-        title: "From the Rich Soils of Congo to the Heart of Nairobi",
+        title: "Premium Cacao",
         paragraph1:
-          "House of Cocoa was born from a shared passion. We, a team based in Nairobi, saw a disconnect. On one side, the unparalleled cacao from the fertile lands of the DRC, nurtured by dedicated farmers. On the other, a world of artisans and creators yearning for authentic, high-quality ingredients.",
+          "Cacao is more than a bean; its a living story of Africas rain-washed forests and sun-soaked highlands. Sourcing in both the DRC and Uganda, we partner directly with farmers and cooperatives who honour every pod.",
         paragraph2:
-          "We are the bridge. Our mission is to build sustainable, transparent relationships that honor the farmer, celebrate the bean, and empower the chocolatier. We are more than suppliers; we are partners in craft.",
+          "Their craft meets your vision in character-rich beans, arriving exactly where you need them, ready for your next creation.",
       },
       philosophy: {
         eyebrow: "Our Commitment",
@@ -81,9 +81,9 @@ export const LanguageProvider = ({ children }) => {
       collaborate: {
         title: "Let's Create Together",
         description:
-          "Whether you are a master chocolatier seeking the finest beans or a farmer cooperative looking for a reliable market, we believe in the power of partnership.",
+          "Need premium cacao, or a farmer cooperative seeking a reliable market? Let's partner.",
         box1: {
-          title: "For Chocolatiers & Businesses",
+          title: "For Buyers, Makers & Artisans",
           description:
             "Elevate your products with our premium, traceable cacao. Let's discuss your needs.",
           cta: "Enquire About Sourcing",
@@ -116,20 +116,20 @@ export const LanguageProvider = ({ children }) => {
       },
       hero: {
         title: "Cacao Premium",
-        subtitle: "Du Cœur de la RDC",
+        subtitle: "Des Sols Riches du Congo et de l'Ouganda.",
         description:
-          "Sourcing des meilleures fèves de cacao directement des hauts plateaux immaculés de la République Démocratique du Congo, offrant une qualité exceptionnelle et des saveurs authentiques.",
+          "Basés à Nairobi, nous établissons des partenariats directs avec des agriculteurs dévoués en RDC et en Ouganda. Pour les artisans et les entreprises à la recherche d'un cacao de première qualité et riche en caractère, nous offrons un chemin clair et fiable vers la source.",
         cta1: "Découvrir Notre Cacao",
         cta2: "Notre Histoire",
       },
 
       ourStory: {
         eyebrow: "Notre Histoire",
-        title: "Des Sols Riches du Congo au Cœur de Nairobi",
+        title: "Cacao Premium",
         paragraph1:
-          "Maison Cacao est né d'une passion commune. Notre équipe, basée à Nairobi, a constaté une déconnexion. D'un côté, le cacao incomparable des terres fertiles de la RDC, cultivé par des agriculteurs dévoués. De l'autre, un monde d'artisans et de créateurs en quête d'ingrédients authentiques et de haute qualité.",
+          "Le cacao est bien plus qu’une fève c’est l’histoire vivante de l’Afrique, façonnée par les forêts humides et les hauts plateaux baignés de soleil. Présents en RDC comme en Ouganda, nous travaillons main dans la main avec les agriculteurs et les coopératives qui honorent chaque cabosse.",
         paragraph2:
-          "Nous sommes ce pont. Notre mission est de bâtir des relations durables et transparentes qui honorent l'agriculteur, célèbrent la fève et renforcent le chocolatier. Nous sommes plus que des fournisseurs ; nous sommes des partenaires dans l'artisanat.",
+          "Leur savoir-faire nourrit votre créativité avec des fèves au caractère affirmé, livrées là où vous en avez besoin, prêtes pour votre prochaine création.",
       },
       philosophy: {
         eyebrow: "Notre Engagement",
@@ -160,9 +160,9 @@ export const LanguageProvider = ({ children }) => {
       collaborate: {
         title: "Créons Ensemble",
         description:
-          "Que vous soyez un maître chocolatier à la recherche des meilleures fèves ou une coopérative agricole cherchant un marché fiable, nous croyons au pouvoir du partenariat.",
+          "Besoin de cacao premium, ou coopérative à la recherche d’un débouché fiable ? Travaillons ensemble",
         box1: {
-          title: "Pour les Chocolatiers & Entreprises",
+          title: "Pour les Acheteurs, Créateurs & Artisans",
           description:
             "Élevez vos produits avec notre cacao premium et traçable. Discutons de vos besoins.",
           cta: "Demande d'Approvisionnement",
