@@ -14,6 +14,7 @@ const Footer = () => {
         ${darkMode ? "bg-dark text-gray-400" : "bg-stone-800 text-amber-100"}
         py-12 px-6 md:px-12
       `}
+      id="footer"
     >
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Logo and Mission */}

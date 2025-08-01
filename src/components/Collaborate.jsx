@@ -26,7 +26,7 @@ const Collaborate = () => {
               {collabContent.box1.description}
             </p>
             <a
-              href="#contact"
+              href="#footer"
               className="font-bold text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-2"
             >
               {collabContent.box1.cta} <ArrowRight size={18} />
@@ -42,7 +42,7 @@ const Collaborate = () => {
               {collabContent.box2.description}
             </p>
             <a
-              href="#contact"
+              href="#footer"
               className="font-bold text-amber-300 hover:text-amber-200 transition-colors flex items-center gap-2"
             >
               {collabContent.box2.cta} <ArrowRight size={18} />

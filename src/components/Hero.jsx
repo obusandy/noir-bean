@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/50 z-0"></div>
 
       {/* Main content container */}
-      <div className="relative z-10 w-full m-14 px-6 md:px-12">
+      <div className="relative z-10 w-full px-6 md:px-12 pt-24 lg:pt-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left side - Content */}
           <div className="text-white space-y-6">
